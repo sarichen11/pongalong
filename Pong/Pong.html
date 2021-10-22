@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+
+<html lang="en">
+<head>
+    <script src="scripts.js"></script>
+    <title>Pong</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="./logo-copy.ico">
+
+
+</head>
+
+<body>
+
+<nav>
+  <a class="links" href="./index.html">Home</a>
+  <a class="links" href="./Pong.html">Warteschlange</a>
+  <a class="links" href="#">Teams</a>
+  <a class="links" href="#">Regeln</a>
+  <a class="links" href="#">Über Uns</a>
+
+  </div>
+  </div>
+  <a class="hamburger">☰</a>
+</nav>
+
+<script>
+var x = document.getElementsByTagName("nav")[0];
+function toggleNav() {
+   if (x.className === "") {
+      x.className = " openNav";
+   } else {
+      x.className = "";
+   }
+}
+document.querySelector(".hamburger").addEventListener("click", toggleNav);
+</script>
+
+
+
+<div >
+  <header class="py-5 bg-image-full" style="background-image: url('./beerpong.jpg'); height: 200px;">
+
+  <img class="center" src="./pongalong.png" alt="" style="height: 50px;" >
+
+</header>
+</div>
+
+
+
+
+  <section>
+    <center>
+    <p> Kein Bock mehr auf Stress wer als nächstes spielt? Tragt euch hier ein und wisst immer, wer die nächste Runde gecalled hat! </p>
+    </center>
+  </section>
+
+<section class="felder">
+
+<section>
+<center>
+    <form>
+
+     <div class="group">
+        <label for = "namen1"> Team 1: <br/ >
+         <input  id="namen1" type="text" class="form__field" onkeyup="success()" name="Team1" placeholder="Spieler 1, Spieler 2">
+       </label>
+
+     </div>
+
+     <div class="group">
+        <label for = "namen2" > Team 2: <br/ >
+          <input  id="namen2" type="text" class="form__field" onkeyup="success()" name="Team2" placeholder="Spieler 1, Spieler 2">
+        </label>
+
+    </div>
+
+    </form>
+
+
+
+</center>
+</section>
+
+<p></p>
+
+
+
+<div class="flex-parent jc-center">
+
+    <input class="button1 " id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
+
+    <input class="button2" type="button" value="Runde gespielt " onclick="loschen();" />
+
+</div>
+
+</section>
+
+<p></p>
+
+<center>
+    <div class="liste" id="li"></div>
+</center>
+
+
+
+
+
+</body>
+
+
+</html>
