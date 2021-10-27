@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Butterfly+Kids|Roboto|Montserrat');
 
-
+/* Beige #FCFCFC
+#463D3C
+#d3c2b5
+*/
 
 body {
   font-family: "Montserrat";
@@ -8,8 +11,30 @@ body {
  flex-direction: column;
  justify-content: center;
  align-items: center;
+ background-color: #FCFCFC ;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: contain;
+
+
+
+ /*
+  background:
+
+        linear-gradient(
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+
+        url("./beer.jpg");
+        background-size: auto;
+
+  */
+
 
 }
+
 
 form {
 
@@ -55,7 +80,7 @@ p {
    z-index: 1;
 }
 nav{
-   background-color: #293133;
+   background-color: #463D3C;
    width: 100%;
 }
 .links,.links-hidden{
@@ -108,7 +133,9 @@ nav.openNav div.dropdown-menu{
 
 
 
-
+.introtext {
+  color: #463D3C;
+}
 
 
 
@@ -169,7 +196,7 @@ input:focus::placeholder {
 .form__field {
   width: 100%;
   border: 0;
-  border-bottom: 2px solid #293133;
+  border-bottom: 2px solid  #463D3C ;
   outline: 0;
   font-size: 1.3rem;
   color: white;
@@ -181,7 +208,7 @@ input:focus::placeholder {
     color: transparent;
   }
 
-
+#293133
 
   &:placeholder-shown ~ .form__label {
     font-size: 1.3rem;
@@ -218,6 +245,7 @@ input:focus::placeholder {
   border-width: 3px;
   border-image: linear-gradient(to right, $primary,$secondary);
   border-image-slice: 1;
+
 
 }
 
@@ -259,6 +287,8 @@ input:focus::placeholder {
 
 .group{
 display: inline-block;
+color: #293133;
+font-weight: bold;
 }
 
 div.group {
@@ -276,6 +306,7 @@ div.group {
 
 button.margin-right {
   margin-right: 20px;
+
 }
 
 
@@ -338,7 +369,7 @@ button.margin-right {
 }
 
 .felder {
-  background-color: grey;
+  background-color: #8B8378;
   padding-top: 40px;
   padding-bottom: 40px;
 }
