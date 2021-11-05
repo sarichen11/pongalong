@@ -155,7 +155,7 @@ label.label-nav{
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: #ecebeb !important;
-  align-content: center;
+  text-align: center;
 }
 
 
@@ -649,6 +649,7 @@ input:focus::placeholder {
 .felder {
   padding-top: 40px;
   padding-bottom: 40px;
+  text-align: center;
 }
 
 
