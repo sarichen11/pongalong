@@ -11,7 +11,8 @@ body {
   font-family: "Montserrat";
 
  flex-direction: column;
-
+ justify-content: center;
+ align-items: center;
  background-color: #FCFCFC ;
  background-position: center;
  background-repeat: no-repeat;
