@@ -31,6 +31,16 @@ function success() {
         }
     }
 
+function success2() {
+    if(document.getElementById("spieler1").value==="" ||
+    document.getElementById("spieler2").value==="" ||
+    document.getElementById("spieler3").value==="" ||
+    document.getElementById("spieler4").value==="") {
+            document.getElementById("button3").disabled = true
+        } else {
+            document.getElementById("button3").disabled = false;
+        }
+    }
 
 
 
