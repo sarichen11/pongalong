@@ -155,6 +155,7 @@ label.label-nav{
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: #ecebeb !important;
+  align-content: center;
 }
 
 
