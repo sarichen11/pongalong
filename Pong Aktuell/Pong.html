@@ -131,7 +131,7 @@
 
 <p></p>
 
-<!-- Teamauslosung mit vier Feldern -->
+<!-- Teamauslosung mit vier Feldern
 <div id="Teams" class="sprung"> </div>
 
 <section class="felder bg-light">
@@ -175,12 +175,14 @@
 
     </form>
 
+
+
 <p></p>
 
     <div class="flex-parent jc-center">
 
         <button class="btn button btn-primary"  id="button3" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''; spieler2.value=''; spieler3.value=''; spieler4.value=''" disabled> Abschicken </button>
-        <!-- <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/> -->
+         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
 
     </div>
 
@@ -189,10 +191,10 @@
 </div>
 </section>
 
+-->
 
 
-
-<!-- Teamauslosung mit einem Feld -->
+<!-- Teamauslosung mit einem Feld
 
 
 <section class="felder bg-light" id="Teams2">
@@ -221,13 +223,15 @@
 
 <p></p>
 
+
+
     <div class="flex-parent jc-center">
 
         <button class="btn button btn-primary"  id="button3" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''" disabled> Abschicken </button>
-        <!-- <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/> -->
+         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
 
         <button class="btn button btn-primary"  id="button2" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''"> Auslosen </button>
-        <!-- <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/> -->
+         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
 
     </div>
 
@@ -237,7 +241,82 @@
 
 </center>
 </div>
+
+-->
+
+<!-- Teamauslosung mit einem Feld -->
+
+<section class="felder bg-light" id="Teams2">
+    <div class="container">
+      <center>
+      <h1> Teams </h1>
+
+
+      <p class="introtext"> Schnicken ist wegen Pegel oder Intelligenz zu kompliziert? <br> Kein Problem - lost hier eure Teammates und Gegner aus! </p>
+
+<p></p>
+<p></p>
+
+
+
+<form>
+
+<div class="group">
+    <label for = "teams1"> Team 1: <br >
+     <input  id="teams1" class="form__field" type="text" onkeyup="success2()" name="Team1" placeholder="Teamname" >
+   </label>
+
+
+ </div>
+
+</form>
+
+<p></p>
+
+<div class="flex-parent jc-center">
+
+
+<button class="btn button btn-primary"  id="button3" type="button" value="Hinzufügen" onclick="hinzufügen(); teams1.value='';" > Hinzufügen </button>
+ <!-- <input class="btn button btn-primary" id="button1" type="button" value="hinzufügen" onclick="hinzufügen();" /> -->
+
+
+ <input class="btn button btn-primary" id="button2" type="button" value="leeren" onclick="leeren1();" />
+
+ <input class="btn button btn-primary" id="button3" type="button" value="auslosen" onclick="auslosen();" />
+
+<br>
+<br>
+
+</div>
+
+<br>
+
+<div></div>
+
+<center>
+
+<div> <b> Namen: </b> </div>
+<div id="li">
+<div class="liste" id="namenFürAuslosung">
+
+</div>
+<br>
+<br>
+
+</center>
+
+<div> <b> Auslosung: </b> </div>
+<div  id="auslosungErgebnis" class="auslosung">
+</div>
+</div>
+
+</center>
+</center>
 </section>
+
+
+
+
 
 <!-- Regelbereich mit ausklappbaren Infos -->
 
