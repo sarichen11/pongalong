@@ -131,118 +131,7 @@
 
 <p></p>
 
-<!-- Teamauslosung mit vier Feldern
-<div id="Teams" class="sprung"> </div>
 
-<section class="felder bg-light">
-    <div class="container">
-      <center>
-      <h1> Teams </h1>
-
-
-      <p class="introtext"> Schnicken ist wegen Pegel oder Intelligenz zu kompliziert? <br> Kein Problem - lost hier eure Teammates und Gegner aus! </p>
-
-<p></p>
-<p></p>
-
-    <form>
-
-     <div class="group">
-        <label for = "spieler1"> Spieler 1: <br/ >
-         <input  id="spieler1" type="text" class="form__field" onkeyup="success2()" name="Team1" placeholder="Name">
-       </label>
-
-     </div>
-
-     <div class="group">
-        <label for = "spieler2" > Spieler 2: <br/ >
-          <input  id="spieler2" type="text" class="form__field" onkeyup="success2()" name="Team2" placeholder="Name">
-        </label>
-    </div>
-
-    <div class="group">
-        <label for = "spieler3"> Spieler 3: <br/ >
-          <input  id="spieler3" type="text" class="form__field" onkeyup="success2()" name="Team1" placeholder="Name">
-        </label>
-    </div>
-
-    <div class="group">
-        <label for = "spieler4" > Spieler 4: <br/ >
-          <input  id="spieler4" type="text" class="form__field" onkeyup="success2()" name="Team2" placeholder="Name">
-        </label>
-
-    </div>
-
-    </form>
-
-
-
-<p></p>
-
-    <div class="flex-parent jc-center">
-
-        <button class="btn button btn-primary"  id="button3" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''; spieler2.value=''; spieler3.value=''; spieler4.value=''" disabled> Abschicken </button>
-         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
-
-    </div>
-
-
-</center>
-</div>
-</section>
-
--->
-
-
-<!-- Teamauslosung mit einem Feld
-
-
-<section class="felder bg-light" id="Teams2">
-    <div class="container">
-      <center>
-      <h1> Teams </h1>
-
-
-      <p class="introtext"> Schnicken ist wegen Pegel oder Intelligenz zu kompliziert? <br> Kein Problem - lost hier eure Teammates und Gegner aus! </p>
-
-<p></p>
-<p></p>
-
-    <form>
-
-     <div class="group">
-        <label for = "spieler1"> Spieler: <br/ >
-         <input  id="spieler1" type="text" class="form__field" onkeyup="success2()" name="Team1" placeholder="Name">
-       </label>
-
-     </div>
-
-
-
-    </form>
-
-<p></p>
-
-
-
-    <div class="flex-parent jc-center">
-
-        <button class="btn button btn-primary"  id="button3" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''" disabled> Abschicken </button>
-         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
-
-        <button class="btn button btn-primary"  id="button2" type="button" value="Abschicken" onclick="BOYCODE; spieler1.value=''"> Auslosen </button>
-         <input class="button1"  id="button1" type="button" value="Abschicken" onclick="namenList(); namen1.value=''; namen2.value=''" disabled/>
-
-    </div>
-
-
-    <div class="liste liste2" id="li"></div>
-
-
-</center>
-</div>
-
--->
 
 <!-- Teamauslosung mit einem Feld -->
 
@@ -279,10 +168,11 @@
 <button class="btn button btn-primary"  id="button3" type="button" value="Hinzufügen" onclick="hinzufügen(); teams1.value='';" > Hinzufügen </button>
  <!-- <input class="btn button btn-primary" id="button1" type="button" value="hinzufügen" onclick="hinzufügen();" /> -->
 
+<button class="btn button btn-primary" id="button2" type="button" value="Leeren" onclick="loschen();"> Leeren </button>
+ <!-- <input class="btn button btn-primary" id="button2" type="button" value="leeren" onclick="leeren1();" /> -->
 
- <input class="btn button btn-primary" id="button2" type="button" value="leeren" onclick="leeren1();" />
-
- <input class="btn button btn-primary" id="button3" type="button" value="auslosen" onclick="auslosen();" />
+<button class="btn button btn-primary" id="button3" type="button" value="auslosen" onclick="auslosen();"> Auslosen </button>
+ <!-- <input class="btn button btn-primary" id="button3" type="button" value="auslosen" onclick="auslosen();" /> -->
 
 <br>
 <br>
