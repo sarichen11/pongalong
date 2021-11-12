@@ -46,7 +46,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-
 //Script Warteschlange
 
 function namenList() {
